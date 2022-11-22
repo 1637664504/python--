@@ -1,0 +1,5 @@
+int32[] val
+---
+int32 cur_sum
+---
+int32 end_sum
