@@ -7,3 +7,7 @@ try:
 except Exception as e:
     print("error ",e)
 print('-----')
+
+''' 
+访问不存在的ip:port, get/post=都会异常
+'''

@@ -6,5 +6,6 @@ import requests
 url = 'http://192.168.6.1:8090'
 s = json.dumps({'key1': 'value1', 'key2': 'value2'})
 head={'Content-Type':'application/json'}
-r = requests.post(url, data=s,headers=head)
-print(r.text)
+print("text",s)
+# r = requests.post(url, data=s,headers=head)
+# print(r.text)
