@@ -1,7 +1,6 @@
 import matplotlib.pyplot as plt
-squares =[1,4,9,25]
-
-#fig 图, axes x轴
+#公式生成 数列
+a=[2*x for x in range(1,10)]
 fig,axes = plt.subplots()
-axes.plot(squares)
+axes.plot(a)
 plt.show()
