@@ -1,4 +1,7 @@
-import asyncio
+''' 
+需求:
+如果文件不存在,用2s超时判断是否存在
+'''
 import time
 import os
 

@@ -1,0 +1,2495 @@
+{
+    "deviceId": "centerId",
+    "cmdId": 1,
+    "cmd": "hire",
+    "data": {
+        "mission": {
+            "type": "FeatureCollection",
+            "features": [
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "voidPoint-0",
+                        "marker-symbol": 0,
+                        "stop": true
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            114.0001851,
+                            22.65722579,
+                            120
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "line",
+                        "task": "N/A"
+                    },
+                    "geometry": {
+                        "type": "LineString",
+                        "coordinates": [
+                            [
+                                114.0001851,
+                                22.65722579,
+                                120
+                            ],
+                            [
+                                114.0004354610412,
+                                22.657434306307216,
+                                120
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "voidPoint-3",
+                        "marker-symbol": 1,
+                        "stop": true
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            114.0004354610412,
+                            22.657434306307216,
+                            120
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "line",
+                        "task": "N/A"
+                    },
+                    "geometry": {
+                        "type": "LineString",
+                        "coordinates": [
+                            [
+                                114.0004354610412,
+                                22.657434306307216,
+                                120
+                            ],
+                            [
+                                114.0004354610412,
+                                22.657434306307216,
+                                124.45151611328099
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "yf-cy-test-point-1-camera",
+                        "task": "\u5143\u82ac\u4ea7\u7814\u6d4b\u8bd5\u822a\u7ebf-\u70b9-1",
+                        "marker-symbol": 2,
+                        "stop": true,
+                        "action": [
+                            {
+                                "type": "START",
+                                "param": {
+                                    "flightId": "051c64ba-c61f-4159-bccf-37fc0af06897",
+                                    "taskId": "yf-cy-test-point-1-camera",
+                                    "planId": "dde2eb8b-cbe0-4844-be10-f2dd1238b452"
+                                }
+                            },
+                            {
+                                "type": "CONDITION_YAW",
+                                "param": {
+                                    "angle": 85,
+                                    "angularSpeed": 0,
+                                    "direction": 0,
+                                    "relative": 0,
+                                    "property": {
+                                        "coordinateSystem": "camera",
+                                        "loadType": {
+                                            "loadModel": "H20"
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "type": "DO_GIMBAL_MANAGER_PITCHYAW",
+                                "param": {
+                                    "pitch": -85.1999969482422,
+                                    "yaw": 0,
+                                    "property": {
+                                        "coordinateSystem": "camera",
+                                        "loadType": {
+                                            "loadModel": "H20"
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "type": "SET_CAMERA_ZOOM",
+                                "param": {
+                                    "value": 47,
+                                    "property": {
+                                        "coordinateSystem": "camera",
+                                        "loadType": {
+                                            "loadModel": "H20"
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "type": "IMAGE_START_CAPTURE",
+                                "param": {
+                                    "type": "dual",
+                                    "index": 0
+                                }
+                            },
+                            {
+                                "type": "SET_CAMERA_ZOOM",
+                                "param": {
+                                    "value": 0,
+                                    "property": {
+                                        "coordinateSystem": "camera",
+                                        "loadType": {
+                                            "loadModel": "H20"
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "type": "IMAGE_START_CAPTURE",
+                                "param": {
+                                    "type": "dual",
+                                    "index": 1
+                                }
+                            },
+                            {
+                                "type": "END",
+                                "param": {
+                                    "flightId": "051c64ba-c61f-4159-bccf-37fc0af06897",
+                                    "taskId": "yf-cy-test-point-1-camera",
+                                    "planId": "dde2eb8b-cbe0-4844-be10-f2dd1238b452"
+                                }
+                            }
+                        ]
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            114.0004354610412,
+                            22.657434306307216,
+                            124.45151611328099
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "line",
+                        "task": "N/A"
+                    },
+                    "geometry": {
+                        "type": "LineString",
+                        "coordinates": [
+                            [
+                                114.0004354610412,
+                                22.657434306307216,
+                                124.45151611328099
+                            ],
+                            [
+                                114.0004354610412,
+                                22.657434306307216,
+                                124.45151611328099
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "yf-cy-test-point-2-camera",
+                        "task": "\u5143\u82ac\u4ea7\u7814\u6d4b\u8bd5\u822a\u7ebf-\u70b9-2",
+                        "marker-symbol": 3,
+                        "stop": true,
+                        "action": [
+                            {
+                                "type": "START",
+                                "param": {
+                                    "flightId": "051c64ba-c61f-4159-bccf-37fc0af06897",
+                                    "taskId": "yf-cy-test-point-2-camera",
+                                    "planId": "dde2eb8b-cbe0-4844-be10-f2dd1238b452"
+                                }
+                            },
+                            {
+                                "type": "CONDITION_YAW",
+                                "param": {
+                                    "angle": 85,
+                                    "angularSpeed": 0,
+                                    "direction": 0,
+                                    "relative": 0,
+                                    "property": {
+                                        "coordinateSystem": "camera",
+                                        "loadType": {
+                                            "loadModel": "H20"
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "type": "DO_GIMBAL_MANAGER_PITCHYAW",
+                                "param": {
+                                    "pitch": -85.1999969482422,
+                                    "yaw": 0,
+                                    "property": {
+                                        "coordinateSystem": "camera",
+                                        "loadType": {
+                                            "loadModel": "H20"
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "type": "SET_CAMERA_ZOOM",
+                                "param": {
+                                    "value": 117.8,
+                                    "property": {
+                                        "coordinateSystem": "camera",
+                                        "loadType": {
+                                            "loadModel": "H20"
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "type": "IMAGE_START_CAPTURE",
+                                "param": {
+                                    "type": "dual",
+                                    "index": 0
+                                }
+                            },
+                            {
+                                "type": "SET_CAMERA_ZOOM",
+                                "param": {
+                                    "value": 0,
+                                    "property": {
+                                        "coordinateSystem": "camera",
+                                        "loadType": {
+                                            "loadModel": "H20"
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "type": "END",
+                                "param": {
+                                    "flightId": "051c64ba-c61f-4159-bccf-37fc0af06897",
+                                    "taskId": "yf-cy-test-point-2-camera",
+                                    "planId": "dde2eb8b-cbe0-4844-be10-f2dd1238b452"
+                                }
+                            }
+                        ]
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            114.0004354610412,
+                            22.657434306307216,
+                            124.45151611328099
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "line",
+                        "task": "N/A"
+                    },
+                    "geometry": {
+                        "type": "LineString",
+                        "coordinates": [
+                            [
+                                114.0004354610412,
+                                22.657434306307216,
+                                124.45151611328099
+                            ],
+                            [
+                                114.0004354610412,
+                                22.657434306307216,
+                                124.45151611328099
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "yf-cy-test-point-3-camera",
+                        "task": "\u5143\u82ac\u4ea7\u7814\u6d4b\u8bd5\u822a\u7ebf-\u70b9-3",
+                        "marker-symbol": 4,
+                        "stop": true,
+                        "action": [
+                            {
+                                "type": "START",
+                                "param": {
+                                    "flightId": "051c64ba-c61f-4159-bccf-37fc0af06897",
+                                    "taskId": "yf-cy-test-point-3-camera",
+                                    "planId": "dde2eb8b-cbe0-4844-be10-f2dd1238b452"
+                                }
+                            },
+                            {
+                                "type": "CONDITION_YAW",
+                                "param": {
+                                    "angle": 85,
+                                    "angularSpeed": 0,
+                                    "direction": 0,
+                                    "relative": 0,
+                                    "property": {
+                                        "coordinateSystem": "camera",
+                                        "loadType": {
+                                            "loadModel": "H20"
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "type": "DO_GIMBAL_MANAGER_PITCHYAW",
+                                "param": {
+                                    "pitch": -85.1999969482422,
+                                    "yaw": 0,
+                                    "property": {
+                                        "coordinateSystem": "camera",
+                                        "loadType": {
+                                            "loadModel": "H20"
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "type": "SET_CAMERA_ZOOM",
+                                "param": {
+                                    "value": 235.7,
+                                    "property": {
+                                        "coordinateSystem": "camera",
+                                        "loadType": {
+                                            "loadModel": "H20"
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "type": "IMAGE_START_CAPTURE",
+                                "param": {
+                                    "type": "dual",
+                                    "index": 0
+                                }
+                            },
+                            {
+                                "type": "SET_CAMERA_ZOOM",
+                                "param": {
+                                    "value": 0,
+                                    "property": {
+                                        "coordinateSystem": "camera",
+                                        "loadType": {
+                                            "loadModel": "H20"
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "type": "END",
+                                "param": {
+                                    "flightId": "051c64ba-c61f-4159-bccf-37fc0af06897",
+                                    "taskId": "yf-cy-test-point-3-camera",
+                                    "planId": "dde2eb8b-cbe0-4844-be10-f2dd1238b452"
+                                }
+                            }
+                        ]
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            114.0004354610412,
+                            22.657434306307216,
+                            124.45151611328099
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "line",
+                        "task": "N/A"
+                    },
+                    "geometry": {
+                        "type": "LineString",
+                        "coordinates": [
+                            [
+                                114.0004354610412,
+                                22.657434306307216,
+                                124.45151611328099
+                            ],
+                            [
+                                114.0002415328064,
+                                22.657602720975774,
+                                124.452561340332
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "yf-cy-test-point-4-camera",
+                        "task": "\u5143\u82ac\u4ea7\u7814\u6d4b\u8bd5\u822a\u7ebf-\u70b9-4",
+                        "marker-symbol": 5,
+                        "stop": true,
+                        "action": [
+                            {
+                                "type": "START",
+                                "param": {
+                                    "flightId": "051c64ba-c61f-4159-bccf-37fc0af06897",
+                                    "taskId": "yf-cy-test-point-4-camera",
+                                    "planId": "dde2eb8b-cbe0-4844-be10-f2dd1238b452"
+                                }
+                            },
+                            {
+                                "type": "CONDITION_YAW",
+                                "param": {
+                                    "angle": 31,
+                                    "angularSpeed": 0,
+                                    "direction": 0,
+                                    "relative": 0,
+                                    "property": {
+                                        "coordinateSystem": "camera",
+                                        "loadType": {
+                                            "loadModel": "H20"
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "type": "DO_GIMBAL_MANAGER_PITCHYAW",
+                                "param": {
+                                    "pitch": -59.5999984741211,
+                                    "yaw": 0,
+                                    "property": {
+                                        "coordinateSystem": "camera",
+                                        "loadType": {
+                                            "loadModel": "H20"
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "type": "SET_CAMERA_ZOOM",
+                                "param": {
+                                    "value": 47,
+                                    "property": {
+                                        "coordinateSystem": "camera",
+                                        "loadType": {
+                                            "loadModel": "H20"
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "type": "IMAGE_START_CAPTURE",
+                                "param": {
+                                    "type": "dual",
+                                    "index": 0
+                                }
+                            },
+                            {
+                                "type": "SET_CAMERA_ZOOM",
+                                "param": {
+                                    "value": 0,
+                                    "property": {
+                                        "coordinateSystem": "camera",
+                                        "loadType": {
+                                            "loadModel": "H20"
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "type": "END",
+                                "param": {
+                                    "flightId": "051c64ba-c61f-4159-bccf-37fc0af06897",
+                                    "taskId": "yf-cy-test-point-4-camera",
+                                    "planId": "dde2eb8b-cbe0-4844-be10-f2dd1238b452"
+                                }
+                            }
+                        ]
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            114.0002415328064,
+                            22.657602720975774,
+                            124.452561340332
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "line",
+                        "task": "N/A"
+                    },
+                    "geometry": {
+                        "type": "LineString",
+                        "coordinates": [
+                            [
+                                114.0002415328064,
+                                22.657602720975774,
+                                124.452561340332
+                            ],
+                            [
+                                114.00024155673509,
+                                22.657602707443964,
+                                124.452561340332
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "yf-cy-test-point-5-camera",
+                        "task": "\u5143\u82ac\u4ea7\u7814\u6d4b\u8bd5\u822a\u7ebf-\u70b9-5",
+                        "marker-symbol": 6,
+                        "stop": true,
+                        "action": [
+                            {
+                                "type": "START",
+                                "param": {
+                                    "flightId": "051c64ba-c61f-4159-bccf-37fc0af06897",
+                                    "taskId": "yf-cy-test-point-5-camera",
+                                    "planId": "dde2eb8b-cbe0-4844-be10-f2dd1238b452"
+                                }
+                            },
+                            {
+                                "type": "CONDITION_YAW",
+                                "param": {
+                                    "angle": 32,
+                                    "angularSpeed": 0,
+                                    "direction": 0,
+                                    "relative": 0,
+                                    "property": {
+                                        "coordinateSystem": "camera",
+                                        "loadType": {
+                                            "loadModel": "H20"
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "type": "DO_GIMBAL_MANAGER_PITCHYAW",
+                                "param": {
+                                    "pitch": -59.5999984741211,
+                                    "yaw": 0,
+                                    "property": {
+                                        "coordinateSystem": "camera",
+                                        "loadType": {
+                                            "loadModel": "H20"
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "type": "SET_CAMERA_ZOOM",
+                                "param": {
+                                    "value": 117.8,
+                                    "property": {
+                                        "coordinateSystem": "camera",
+                                        "loadType": {
+                                            "loadModel": "H20"
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "type": "IMAGE_START_CAPTURE",
+                                "param": {
+                                    "type": "dual",
+                                    "index": 0
+                                }
+                            },
+                            {
+                                "type": "SET_CAMERA_ZOOM",
+                                "param": {
+                                    "value": 0,
+                                    "property": {
+                                        "coordinateSystem": "camera",
+                                        "loadType": {
+                                            "loadModel": "H20"
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "type": "END",
+                                "param": {
+                                    "flightId": "051c64ba-c61f-4159-bccf-37fc0af06897",
+                                    "taskId": "yf-cy-test-point-5-camera",
+                                    "planId": "dde2eb8b-cbe0-4844-be10-f2dd1238b452"
+                                }
+                            }
+                        ]
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            114.00024155673509,
+                            22.657602707443964,
+                            124.452561340332
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "line",
+                        "task": "N/A"
+                    },
+                    "geometry": {
+                        "type": "LineString",
+                        "coordinates": [
+                            [
+                                114.00024155673509,
+                                22.657602707443964,
+                                124.452561340332
+                            ],
+                            [
+                                114.0002415328064,
+                                22.657602720975774,
+                                124.452561340332
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "yf-cy-test-point-6-camera",
+                        "task": "\u5143\u82ac\u4ea7\u7814\u6d4b\u8bd5\u822a\u7ebf-\u70b9-6",
+                        "marker-symbol": 7,
+                        "stop": true,
+                        "action": [
+                            {
+                                "type": "START",
+                                "param": {
+                                    "flightId": "051c64ba-c61f-4159-bccf-37fc0af06897",
+                                    "taskId": "yf-cy-test-point-6-camera",
+                                    "planId": "dde2eb8b-cbe0-4844-be10-f2dd1238b452"
+                                }
+                            },
+                            {
+                                "type": "CONDITION_YAW",
+                                "param": {
+                                    "angle": 31,
+                                    "angularSpeed": 0,
+                                    "direction": 0,
+                                    "relative": 0,
+                                    "property": {
+                                        "coordinateSystem": "camera",
+                                        "loadType": {
+                                            "loadModel": "H20"
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "type": "DO_GIMBAL_MANAGER_PITCHYAW",
+                                "param": {
+                                    "pitch": -59.5999984741211,
+                                    "yaw": 0,
+                                    "property": {
+                                        "coordinateSystem": "camera",
+                                        "loadType": {
+                                            "loadModel": "H20"
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "type": "SET_CAMERA_ZOOM",
+                                "param": {
+                                    "value": 235.7,
+                                    "property": {
+                                        "coordinateSystem": "camera",
+                                        "loadType": {
+                                            "loadModel": "H20"
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "type": "IMAGE_START_CAPTURE",
+                                "param": {
+                                    "type": "dual",
+                                    "index": 0
+                                }
+                            },
+                            {
+                                "type": "SET_CAMERA_ZOOM",
+                                "param": {
+                                    "value": 0,
+                                    "property": {
+                                        "coordinateSystem": "camera",
+                                        "loadType": {
+                                            "loadModel": "H20"
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "type": "END",
+                                "param": {
+                                    "flightId": "051c64ba-c61f-4159-bccf-37fc0af06897",
+                                    "taskId": "yf-cy-test-point-6-camera",
+                                    "planId": "dde2eb8b-cbe0-4844-be10-f2dd1238b452"
+                                }
+                            }
+                        ]
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            114.0002415328064,
+                            22.657602720975774,
+                            124.452561340332
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "line",
+                        "task": "N/A"
+                    },
+                    "geometry": {
+                        "type": "LineString",
+                        "coordinates": [
+                            [
+                                114.0002415328064,
+                                22.657602720975774,
+                                124.452561340332
+                            ],
+                            [
+                                114.00001330218811,
+                                22.65779297441186,
+                                124.453774414062
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "yf-cy-test-point-7-camera",
+                        "task": "\u5143\u82ac\u4ea7\u7814\u6d4b\u8bd5\u822a\u7ebf-\u70b9-7",
+                        "marker-symbol": 8,
+                        "stop": true,
+                        "action": [
+                            {
+                                "type": "START",
+                                "param": {
+                                    "flightId": "051c64ba-c61f-4159-bccf-37fc0af06897",
+                                    "taskId": "yf-cy-test-point-7-camera",
+                                    "planId": "dde2eb8b-cbe0-4844-be10-f2dd1238b452"
+                                }
+                            },
+                            {
+                                "type": "CONDITION_YAW",
+                                "param": {
+                                    "angle": 296,
+                                    "angularSpeed": 0,
+                                    "direction": 0,
+                                    "relative": 0,
+                                    "property": {
+                                        "coordinateSystem": "camera",
+                                        "loadType": {
+                                            "loadModel": "H20"
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "type": "DO_GIMBAL_MANAGER_PITCHYAW",
+                                "param": {
+                                    "pitch": -45.2000007629395,
+                                    "yaw": 0,
+                                    "property": {
+                                        "coordinateSystem": "camera",
+                                        "loadType": {
+                                            "loadModel": "H20"
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "type": "SET_CAMERA_ZOOM",
+                                "param": {
+                                    "value": 47,
+                                    "property": {
+                                        "coordinateSystem": "camera",
+                                        "loadType": {
+                                            "loadModel": "H20"
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "type": "IMAGE_START_CAPTURE",
+                                "param": {
+                                    "type": "dual",
+                                    "index": 0
+                                }
+                            },
+                            {
+                                "type": "SET_CAMERA_ZOOM",
+                                "param": {
+                                    "value": 0,
+                                    "property": {
+                                        "coordinateSystem": "camera",
+                                        "loadType": {
+                                            "loadModel": "H20"
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "type": "END",
+                                "param": {
+                                    "flightId": "051c64ba-c61f-4159-bccf-37fc0af06897",
+                                    "taskId": "yf-cy-test-point-7-camera",
+                                    "planId": "dde2eb8b-cbe0-4844-be10-f2dd1238b452"
+                                }
+                            }
+                        ]
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            114.00001330218811,
+                            22.65779297441186,
+                            124.453774414062
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "line",
+                        "task": "N/A"
+                    },
+                    "geometry": {
+                        "type": "LineString",
+                        "coordinates": [
+                            [
+                                114.00001330218811,
+                                22.65779297441186,
+                                124.453774414062
+                            ],
+                            [
+                                114.00001330218811,
+                                22.65779297441186,
+                                124.453774414062
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "yf-cy-test-point-8-camera",
+                        "task": "\u5143\u82ac\u4ea7\u7814\u6d4b\u8bd5\u822a\u7ebf-\u70b9-8",
+                        "marker-symbol": 9,
+                        "stop": true,
+                        "action": [
+                            {
+                                "type": "START",
+                                "param": {
+                                    "flightId": "051c64ba-c61f-4159-bccf-37fc0af06897",
+                                    "taskId": "yf-cy-test-point-8-camera",
+                                    "planId": "dde2eb8b-cbe0-4844-be10-f2dd1238b452"
+                                }
+                            },
+                            {
+                                "type": "CONDITION_YAW",
+                                "param": {
+                                    "angle": 296,
+                                    "angularSpeed": 0,
+                                    "direction": 0,
+                                    "relative": 0,
+                                    "property": {
+                                        "coordinateSystem": "camera",
+                                        "loadType": {
+                                            "loadModel": "H20"
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "type": "DO_GIMBAL_MANAGER_PITCHYAW",
+                                "param": {
+                                    "pitch": -45.2000007629395,
+                                    "yaw": 0,
+                                    "property": {
+                                        "coordinateSystem": "camera",
+                                        "loadType": {
+                                            "loadModel": "H20"
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "type": "SET_CAMERA_ZOOM",
+                                "param": {
+                                    "value": 117.8,
+                                    "property": {
+                                        "coordinateSystem": "camera",
+                                        "loadType": {
+                                            "loadModel": "H20"
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "type": "IMAGE_START_CAPTURE",
+                                "param": {
+                                    "type": "dual",
+                                    "index": 0
+                                }
+                            },
+                            {
+                                "type": "SET_CAMERA_ZOOM",
+                                "param": {
+                                    "value": 0,
+                                    "property": {
+                                        "coordinateSystem": "camera",
+                                        "loadType": {
+                                            "loadModel": "H20"
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "type": "END",
+                                "param": {
+                                    "flightId": "051c64ba-c61f-4159-bccf-37fc0af06897",
+                                    "taskId": "yf-cy-test-point-8-camera",
+                                    "planId": "dde2eb8b-cbe0-4844-be10-f2dd1238b452"
+                                }
+                            }
+                        ]
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            114.00001330218811,
+                            22.65779297441186,
+                            124.453774414062
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "line",
+                        "task": "N/A"
+                    },
+                    "geometry": {
+                        "type": "LineString",
+                        "coordinates": [
+                            [
+                                114.00001330218811,
+                                22.65779297441186,
+                                124.453774414062
+                            ],
+                            [
+                                114.00001330218811,
+                                22.65779297441186,
+                                124.453774414062
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "yf-cy-test-point-9-camera",
+                        "task": "\u5143\u82ac\u4ea7\u7814\u6d4b\u8bd5\u822a\u7ebf-\u70b9-9",
+                        "marker-symbol": 10,
+                        "stop": true,
+                        "action": [
+                            {
+                                "type": "START",
+                                "param": {
+                                    "flightId": "051c64ba-c61f-4159-bccf-37fc0af06897",
+                                    "taskId": "yf-cy-test-point-9-camera",
+                                    "planId": "dde2eb8b-cbe0-4844-be10-f2dd1238b452"
+                                }
+                            },
+                            {
+                                "type": "CONDITION_YAW",
+                                "param": {
+                                    "angle": 296,
+                                    "angularSpeed": 0,
+                                    "direction": 0,
+                                    "relative": 0,
+                                    "property": {
+                                        "coordinateSystem": "camera",
+                                        "loadType": {
+                                            "loadModel": "H20"
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "type": "DO_GIMBAL_MANAGER_PITCHYAW",
+                                "param": {
+                                    "pitch": -45.2000007629395,
+                                    "yaw": 0,
+                                    "property": {
+                                        "coordinateSystem": "camera",
+                                        "loadType": {
+                                            "loadModel": "H20"
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "type": "SET_CAMERA_ZOOM",
+                                "param": {
+                                    "value": 235.7,
+                                    "property": {
+                                        "coordinateSystem": "camera",
+                                        "loadType": {
+                                            "loadModel": "H20"
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "type": "IMAGE_START_CAPTURE",
+                                "param": {
+                                    "type": "dual",
+                                    "index": 0
+                                }
+                            },
+                            {
+                                "type": "SET_CAMERA_ZOOM",
+                                "param": {
+                                    "value": 0,
+                                    "property": {
+                                        "coordinateSystem": "camera",
+                                        "loadType": {
+                                            "loadModel": "H20"
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "type": "END",
+                                "param": {
+                                    "flightId": "051c64ba-c61f-4159-bccf-37fc0af06897",
+                                    "taskId": "yf-cy-test-point-9-camera",
+                                    "planId": "dde2eb8b-cbe0-4844-be10-f2dd1238b452"
+                                }
+                            }
+                        ]
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            114.00001330218811,
+                            22.65779297441186,
+                            124.453774414062
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "line",
+                        "task": "N/A"
+                    },
+                    "geometry": {
+                        "type": "LineString",
+                        "coordinates": [
+                            [
+                                114.00001330218811,
+                                22.65779297441186,
+                                124.453774414062
+                            ],
+                            [
+                                113.99989981847261,
+                                22.657629321686297,
+                                124.453911743164
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "yf-cy-test-point-10-camera",
+                        "task": "\u5143\u82ac\u4ea7\u7814\u6d4b\u8bd5\u822a\u7ebf-\u70b9-10",
+                        "marker-symbol": 11,
+                        "stop": true,
+                        "action": [
+                            {
+                                "type": "START",
+                                "param": {
+                                    "flightId": "051c64ba-c61f-4159-bccf-37fc0af06897",
+                                    "taskId": "yf-cy-test-point-10-camera",
+                                    "planId": "dde2eb8b-cbe0-4844-be10-f2dd1238b452"
+                                }
+                            },
+                            {
+                                "type": "CONDITION_YAW",
+                                "param": {
+                                    "angle": 229,
+                                    "angularSpeed": 0,
+                                    "direction": 0,
+                                    "relative": 0,
+                                    "property": {
+                                        "coordinateSystem": "camera",
+                                        "loadType": {
+                                            "loadModel": "H20"
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "type": "DO_GIMBAL_MANAGER_PITCHYAW",
+                                "param": {
+                                    "pitch": -30,
+                                    "yaw": 0,
+                                    "property": {
+                                        "coordinateSystem": "camera",
+                                        "loadType": {
+                                            "loadModel": "H20"
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "type": "SET_CAMERA_ZOOM",
+                                "param": {
+                                    "value": 47,
+                                    "property": {
+                                        "coordinateSystem": "camera",
+                                        "loadType": {
+                                            "loadModel": "H20"
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "type": "IMAGE_START_CAPTURE",
+                                "param": {
+                                    "type": "dual",
+                                    "index": 0
+                                }
+                            },
+                            {
+                                "type": "SET_CAMERA_ZOOM",
+                                "param": {
+                                    "value": 0,
+                                    "property": {
+                                        "coordinateSystem": "camera",
+                                        "loadType": {
+                                            "loadModel": "H20"
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "type": "END",
+                                "param": {
+                                    "flightId": "051c64ba-c61f-4159-bccf-37fc0af06897",
+                                    "taskId": "yf-cy-test-point-10-camera",
+                                    "planId": "dde2eb8b-cbe0-4844-be10-f2dd1238b452"
+                                }
+                            }
+                        ]
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            113.99989981847261,
+                            22.657629321686297,
+                            124.453911743164
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "line",
+                        "task": "N/A"
+                    },
+                    "geometry": {
+                        "type": "LineString",
+                        "coordinates": [
+                            [
+                                113.99989981847261,
+                                22.657629321686297,
+                                124.453911743164
+                            ],
+                            [
+                                113.99989981847261,
+                                22.657629321686297,
+                                124.453911743164
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "yf-cy-test-point-11-camera",
+                        "task": "\u5143\u82ac\u4ea7\u7814\u6d4b\u8bd5\u822a\u7ebf-\u70b9-11",
+                        "marker-symbol": 12,
+                        "stop": true,
+                        "action": [
+                            {
+                                "type": "START",
+                                "param": {
+                                    "flightId": "051c64ba-c61f-4159-bccf-37fc0af06897",
+                                    "taskId": "yf-cy-test-point-11-camera",
+                                    "planId": "dde2eb8b-cbe0-4844-be10-f2dd1238b452"
+                                }
+                            },
+                            {
+                                "type": "CONDITION_YAW",
+                                "param": {
+                                    "angle": 229,
+                                    "angularSpeed": 0,
+                                    "direction": 0,
+                                    "relative": 0,
+                                    "property": {
+                                        "coordinateSystem": "camera",
+                                        "loadType": {
+                                            "loadModel": "H20"
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "type": "DO_GIMBAL_MANAGER_PITCHYAW",
+                                "param": {
+                                    "pitch": -30,
+                                    "yaw": 0,
+                                    "property": {
+                                        "coordinateSystem": "camera",
+                                        "loadType": {
+                                            "loadModel": "H20"
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "type": "SET_CAMERA_ZOOM",
+                                "param": {
+                                    "value": 117.8,
+                                    "property": {
+                                        "coordinateSystem": "camera",
+                                        "loadType": {
+                                            "loadModel": "H20"
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "type": "IMAGE_START_CAPTURE",
+                                "param": {
+                                    "type": "dual",
+                                    "index": 0
+                                }
+                            },
+                            {
+                                "type": "SET_CAMERA_ZOOM",
+                                "param": {
+                                    "value": 0,
+                                    "property": {
+                                        "coordinateSystem": "camera",
+                                        "loadType": {
+                                            "loadModel": "H20"
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "type": "END",
+                                "param": {
+                                    "flightId": "051c64ba-c61f-4159-bccf-37fc0af06897",
+                                    "taskId": "yf-cy-test-point-11-camera",
+                                    "planId": "dde2eb8b-cbe0-4844-be10-f2dd1238b452"
+                                }
+                            }
+                        ]
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            113.99989981847261,
+                            22.657629321686297,
+                            124.453911743164
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "line",
+                        "task": "N/A"
+                    },
+                    "geometry": {
+                        "type": "LineString",
+                        "coordinates": [
+                            [
+                                113.99989981847261,
+                                22.657629321686297,
+                                124.453911743164
+                            ],
+                            [
+                                113.99989981847261,
+                                22.657629321686297,
+                                124.453911743164
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "yf-cy-test-point-12-camera",
+                        "task": "\u5143\u82ac\u4ea7\u7814\u6d4b\u8bd5\u822a\u7ebf-\u70b9-12",
+                        "marker-symbol": 13,
+                        "stop": true,
+                        "action": [
+                            {
+                                "type": "START",
+                                "param": {
+                                    "flightId": "051c64ba-c61f-4159-bccf-37fc0af06897",
+                                    "taskId": "yf-cy-test-point-12-camera",
+                                    "planId": "dde2eb8b-cbe0-4844-be10-f2dd1238b452"
+                                }
+                            },
+                            {
+                                "type": "CONDITION_YAW",
+                                "param": {
+                                    "angle": 229,
+                                    "angularSpeed": 0,
+                                    "direction": 0,
+                                    "relative": 0,
+                                    "property": {
+                                        "coordinateSystem": "camera",
+                                        "loadType": {
+                                            "loadModel": "H20"
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "type": "DO_GIMBAL_MANAGER_PITCHYAW",
+                                "param": {
+                                    "pitch": -30,
+                                    "yaw": 0,
+                                    "property": {
+                                        "coordinateSystem": "camera",
+                                        "loadType": {
+                                            "loadModel": "H20"
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "type": "SET_CAMERA_ZOOM",
+                                "param": {
+                                    "value": 235.7,
+                                    "property": {
+                                        "coordinateSystem": "camera",
+                                        "loadType": {
+                                            "loadModel": "H20"
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "type": "IMAGE_START_CAPTURE",
+                                "param": {
+                                    "type": "dual",
+                                    "index": 0
+                                }
+                            },
+                            {
+                                "type": "SET_CAMERA_ZOOM",
+                                "param": {
+                                    "value": 0,
+                                    "property": {
+                                        "coordinateSystem": "camera",
+                                        "loadType": {
+                                            "loadModel": "H20"
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "type": "END",
+                                "param": {
+                                    "flightId": "051c64ba-c61f-4159-bccf-37fc0af06897",
+                                    "taskId": "yf-cy-test-point-12-camera",
+                                    "planId": "dde2eb8b-cbe0-4844-be10-f2dd1238b452"
+                                }
+                            }
+                        ]
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            113.99989981847261,
+                            22.657629321686297,
+                            124.453911743164
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "line",
+                        "task": "N/A"
+                    },
+                    "geometry": {
+                        "type": "LineString",
+                        "coordinates": [
+                            [
+                                113.99989981847261,
+                                22.657629321686297,
+                                124.453911743164
+                            ],
+                            [
+                                113.99989981847261,
+                                22.657629321686297,
+                                120
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "voidPoint-77",
+                        "marker-symbol": 14,
+                        "stop": true
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            113.99989981847261,
+                            22.657629321686297,
+                            120
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "line",
+                        "task": "N/A"
+                    },
+                    "geometry": {
+                        "type": "LineString",
+                        "coordinates": [
+                            [
+                                113.99989981847261,
+                                22.657629321686297,
+                                120
+                            ],
+                            [
+                                114.0001851,
+                                22.65722579,
+                                120
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "voidPoint-79",
+                        "marker-symbol": 15,
+                        "stop": true
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            114.0001851,
+                            22.65722579,
+                            120
+                        ]
+                    }
+                }
+            ]
+        },
+        "path": {
+            "type": "FeatureCollection",
+            "features": [
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "4S-2",
+                        "missionPath": true,
+                        "gpsFixType": "DGPS",
+                        "device": {
+                            "id": "4S-2",
+                            "type": "4S"
+                        },
+                        "stop": true,
+                        "id": "item-0"
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            114.0001851,
+                            22.65722579,
+                            91.06
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "voidPoint-1",
+                        "missionPath": true,
+                        "gpsFixType": "DGPS",
+                        "id": "item-1"
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            114.0001851,
+                            22.65722579,
+                            106.06
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "line",
+                        "missionPath": true,
+                        "gpsFixType": "DGPS",
+                        "id": "item-2"
+                    },
+                    "geometry": {
+                        "type": "LineString",
+                        "coordinates": [
+                            [
+                                114.0001851,
+                                22.65722579,
+                                120
+                            ],
+                            [
+                                114.0001851,
+                                22.65722579,
+                                106.06
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "line",
+                        "missionPath": true,
+                        "gpsFixType": "DGPS",
+                        "id": "item-3"
+                    },
+                    "geometry": {
+                        "type": "LineString",
+                        "coordinates": [
+                            [
+                                114.0001851,
+                                22.65722579,
+                                106.06
+                            ],
+                            [
+                                114.0001851,
+                                22.65722579,
+                                91.06
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "voidPoint-2",
+                        "missionPath": true,
+                        "gpsFixType": "DGPS",
+                        "stop": true,
+                        "id": "item-4"
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            114.0001851,
+                            22.65722579,
+                            120
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "line",
+                        "missionPath": true,
+                        "gpsFixType": "DGPS",
+                        "id": "item-5"
+                    },
+                    "geometry": {
+                        "type": "LineString",
+                        "coordinates": [
+                            [
+                                114.0001851,
+                                22.65722579,
+                                120
+                            ],
+                            [
+                                114.0004354610412,
+                                22.657434306307216,
+                                120
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "voidPoint-4",
+                        "missionPath": true,
+                        "gpsFixType": "DGPS",
+                        "stop": true,
+                        "id": "item-6"
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            114.0004354610412,
+                            22.657434306307216,
+                            120
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "line",
+                        "missionPath": true,
+                        "gpsFixType": "DGPS",
+                        "id": "item-7"
+                    },
+                    "geometry": {
+                        "type": "LineString",
+                        "coordinates": [
+                            [
+                                114.0004354610412,
+                                22.657434306307216,
+                                120
+                            ],
+                            [
+                                114.0004354610412,
+                                22.657434306307216,
+                                124.45151611328099
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "yf-cy-test-point-1-camera",
+                        "missionPath": true,
+                        "gpsFixType": "DGPS",
+                        "stop": true,
+                        "id": "item-8"
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            114.0004354610412,
+                            22.657434306307216,
+                            124.45151611328099
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "line",
+                        "missionPath": true,
+                        "gpsFixType": "DGPS",
+                        "id": "item-9"
+                    },
+                    "geometry": {
+                        "type": "LineString",
+                        "coordinates": [
+                            [
+                                114.0004354610412,
+                                22.657434306307216,
+                                124.45151611328099
+                            ],
+                            [
+                                114.0004354610412,
+                                22.657434306307216,
+                                124.45151611328099
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "line",
+                        "missionPath": true,
+                        "gpsFixType": "DGPS",
+                        "id": "item-10"
+                    },
+                    "geometry": {
+                        "type": "LineString",
+                        "coordinates": [
+                            [
+                                114.0004354610412,
+                                22.657434306307216,
+                                124.45151611328099
+                            ],
+                            [
+                                114.0002415328064,
+                                22.657602720975774,
+                                124.452561340332
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "yf-cy-test-point-4-camera",
+                        "missionPath": true,
+                        "gpsFixType": "DGPS",
+                        "stop": true,
+                        "id": "item-11"
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            114.0002415328064,
+                            22.657602720975774,
+                            124.452561340332
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "line",
+                        "missionPath": true,
+                        "gpsFixType": "DGPS",
+                        "id": "item-12"
+                    },
+                    "geometry": {
+                        "type": "LineString",
+                        "coordinates": [
+                            [
+                                114.0002415328064,
+                                22.657602720975774,
+                                124.452561340332
+                            ],
+                            [
+                                114.00024155673509,
+                                22.657602707443964,
+                                124.452561340332
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "yf-cy-test-point-5-camera",
+                        "missionPath": true,
+                        "gpsFixType": "DGPS",
+                        "stop": true,
+                        "id": "item-13"
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            114.00024155673509,
+                            22.657602707443964,
+                            124.452561340332
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "line",
+                        "missionPath": true,
+                        "gpsFixType": "DGPS",
+                        "id": "item-14"
+                    },
+                    "geometry": {
+                        "type": "LineString",
+                        "coordinates": [
+                            [
+                                114.0002415328064,
+                                22.657602720975774,
+                                124.452561340332
+                            ],
+                            [
+                                114.00001330218811,
+                                22.65779297441186,
+                                124.453774414062
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "yf-cy-test-point-7-camera",
+                        "missionPath": true,
+                        "gpsFixType": "DGPS",
+                        "stop": true,
+                        "id": "item-15"
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            114.00001330218811,
+                            22.65779297441186,
+                            124.453774414062
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "line",
+                        "missionPath": true,
+                        "gpsFixType": "DGPS",
+                        "id": "item-16"
+                    },
+                    "geometry": {
+                        "type": "LineString",
+                        "coordinates": [
+                            [
+                                114.00001330218811,
+                                22.65779297441186,
+                                124.453774414062
+                            ],
+                            [
+                                114.00001330218811,
+                                22.65779297441186,
+                                124.453774414062
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "line",
+                        "missionPath": true,
+                        "gpsFixType": "DGPS",
+                        "id": "item-17"
+                    },
+                    "geometry": {
+                        "type": "LineString",
+                        "coordinates": [
+                            [
+                                114.00001330218811,
+                                22.65779297441186,
+                                124.453774414062
+                            ],
+                            [
+                                113.99989981847261,
+                                22.657629321686297,
+                                124.453911743164
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "yf-cy-test-point-10-camera",
+                        "missionPath": true,
+                        "gpsFixType": "DGPS",
+                        "stop": true,
+                        "id": "item-18"
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            113.99989981847261,
+                            22.657629321686297,
+                            124.453911743164
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "line",
+                        "missionPath": true,
+                        "gpsFixType": "DGPS",
+                        "id": "item-19"
+                    },
+                    "geometry": {
+                        "type": "LineString",
+                        "coordinates": [
+                            [
+                                113.99989981847261,
+                                22.657629321686297,
+                                124.453911743164
+                            ],
+                            [
+                                113.99989981847261,
+                                22.657629321686297,
+                                124.453911743164
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "line",
+                        "missionPath": true,
+                        "gpsFixType": "DGPS",
+                        "id": "item-20"
+                    },
+                    "geometry": {
+                        "type": "LineString",
+                        "coordinates": [
+                            [
+                                113.99989981847261,
+                                22.657629321686297,
+                                124.453911743164
+                            ],
+                            [
+                                113.99989981847261,
+                                22.657629321686297,
+                                120
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "voidPoint-78",
+                        "missionPath": true,
+                        "gpsFixType": "DGPS",
+                        "stop": true,
+                        "id": "item-21"
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            113.99989981847261,
+                            22.657629321686297,
+                            120
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "line",
+                        "missionPath": true,
+                        "gpsFixType": "DGPS",
+                        "id": "item-22"
+                    },
+                    "geometry": {
+                        "type": "LineString",
+                        "coordinates": [
+                            [
+                                113.99989981847261,
+                                22.657629321686297,
+                                120
+                            ],
+                            [
+                                114.0001851,
+                                22.65722579,
+                                120
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "line",
+                        "missionPath": false,
+                        "gpsFixType": "DGPS",
+                        "id": "item-23"
+                    },
+                    "geometry": {
+                        "type": "LineString",
+                        "coordinates": [
+                            [
+                                114.0004354610412,
+                                22.657434306307216,
+                                120
+                            ],
+                            [
+                                114.0001125,
+                                22.6571749,
+                                120
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "voidPoint-9",
+                        "missionPath": false,
+                        "gpsFixType": "DGPS",
+                        "stop": true,
+                        "id": "item-24"
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            114.0001125,
+                            22.6571749,
+                            120
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "line",
+                        "missionPath": false,
+                        "gpsFixType": "DGPS",
+                        "id": "item-25"
+                    },
+                    "geometry": {
+                        "type": "LineString",
+                        "coordinates": [
+                            [
+                                114.0001125,
+                                22.6571749,
+                                120
+                            ],
+                            [
+                                114.0001125,
+                                22.6571749,
+                                110.78
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "voidPoint-10",
+                        "missionPath": false,
+                        "gpsFixType": "DGPS",
+                        "pointToStartLand": "true",
+                        "stop": true,
+                        "id": "item-26"
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            114.0001125,
+                            22.6571749,
+                            110.78
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "line",
+                        "missionPath": false,
+                        "gpsFixType": "DGPS",
+                        "id": "item-27"
+                    },
+                    "geometry": {
+                        "type": "LineString",
+                        "coordinates": [
+                            [
+                                114.0001125,
+                                22.6571749,
+                                110.78
+                            ],
+                            [
+                                114.0001125,
+                                22.6571749,
+                                95.78
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "PAD-C-ALTER",
+                        "missionPath": false,
+                        "gpsFixType": "DGPS",
+                        "device": {
+                            "id": "PAD-C-ALTER",
+                            "type": "ground"
+                        },
+                        "stop": true,
+                        "id": "item-28"
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            114.0001125,
+                            22.6571749,
+                            95.78
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "line",
+                        "missionPath": false,
+                        "gpsFixType": "DGPS",
+                        "id": "item-29"
+                    },
+                    "geometry": {
+                        "type": "LineString",
+                        "coordinates": [
+                            [
+                                114.0001851,
+                                22.65722579,
+                                120
+                            ],
+                            [
+                                114.0001125,
+                                22.6571749,
+                                120
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "line",
+                        "missionPath": false,
+                        "gpsFixType": "DGPS",
+                        "id": "item-30"
+                    },
+                    "geometry": {
+                        "type": "LineString",
+                        "coordinates": [
+                            [
+                                114.0002415328064,
+                                22.657602720975774,
+                                124.452561340332
+                            ],
+                            [
+                                114.0002415328064,
+                                22.657602720975774,
+                                120
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "voidPoint-23",
+                        "missionPath": false,
+                        "gpsFixType": "DGPS",
+                        "stop": true,
+                        "id": "item-31"
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            114.0002415328064,
+                            22.657602720975774,
+                            120
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "line",
+                        "missionPath": false,
+                        "gpsFixType": "DGPS",
+                        "id": "item-32"
+                    },
+                    "geometry": {
+                        "type": "LineString",
+                        "coordinates": [
+                            [
+                                114.0002415328064,
+                                22.657602720975774,
+                                120
+                            ],
+                            [
+                                114.0001851,
+                                22.65722579,
+                                120
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "line",
+                        "missionPath": false,
+                        "gpsFixType": "DGPS",
+                        "id": "item-33"
+                    },
+                    "geometry": {
+                        "type": "LineString",
+                        "coordinates": [
+                            [
+                                114.0002415328064,
+                                22.657602720975774,
+                                120
+                            ],
+                            [
+                                114.0001125,
+                                22.6571749,
+                                120
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "line",
+                        "missionPath": false,
+                        "gpsFixType": "DGPS",
+                        "id": "item-34"
+                    },
+                    "geometry": {
+                        "type": "LineString",
+                        "coordinates": [
+                            [
+                                114.00024155673509,
+                                22.657602707443964,
+                                124.452561340332
+                            ],
+                            [
+                                114.00024155673509,
+                                22.657602707443964,
+                                120
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "voidPoint-29",
+                        "missionPath": false,
+                        "gpsFixType": "DGPS",
+                        "stop": true,
+                        "id": "item-35"
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            114.00024155673509,
+                            22.657602707443964,
+                            120
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "line",
+                        "missionPath": false,
+                        "gpsFixType": "DGPS",
+                        "id": "item-36"
+                    },
+                    "geometry": {
+                        "type": "LineString",
+                        "coordinates": [
+                            [
+                                114.00024155673509,
+                                22.657602707443964,
+                                120
+                            ],
+                            [
+                                114.0001851,
+                                22.65722579,
+                                120
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "line",
+                        "missionPath": false,
+                        "gpsFixType": "DGPS",
+                        "id": "item-37"
+                    },
+                    "geometry": {
+                        "type": "LineString",
+                        "coordinates": [
+                            [
+                                114.00024155673509,
+                                22.657602707443964,
+                                120
+                            ],
+                            [
+                                114.0001125,
+                                22.6571749,
+                                120
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "line",
+                        "missionPath": false,
+                        "gpsFixType": "DGPS",
+                        "id": "item-38"
+                    },
+                    "geometry": {
+                        "type": "LineString",
+                        "coordinates": [
+                            [
+                                114.00001330218811,
+                                22.65779297441186,
+                                124.453774414062
+                            ],
+                            [
+                                114.00001330218811,
+                                22.65779297441186,
+                                120
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "voidPoint-41",
+                        "missionPath": false,
+                        "gpsFixType": "DGPS",
+                        "stop": true,
+                        "id": "item-39"
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            114.00001330218811,
+                            22.65779297441186,
+                            120
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "line",
+                        "missionPath": false,
+                        "gpsFixType": "DGPS",
+                        "id": "item-40"
+                    },
+                    "geometry": {
+                        "type": "LineString",
+                        "coordinates": [
+                            [
+                                114.00001330218811,
+                                22.65779297441186,
+                                120
+                            ],
+                            [
+                                114.0001851,
+                                22.65722579,
+                                120
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "line",
+                        "missionPath": false,
+                        "gpsFixType": "DGPS",
+                        "id": "item-41"
+                    },
+                    "geometry": {
+                        "type": "LineString",
+                        "coordinates": [
+                            [
+                                114.00001330218811,
+                                22.65779297441186,
+                                120
+                            ],
+                            [
+                                114.0001125,
+                                22.6571749,
+                                120
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "line",
+                        "missionPath": false,
+                        "gpsFixType": "DGPS",
+                        "id": "item-42"
+                    },
+                    "geometry": {
+                        "type": "LineString",
+                        "coordinates": [
+                            [
+                                113.99989981847261,
+                                22.657629321686297,
+                                120
+                            ],
+                            [
+                                114.0001125,
+                                22.6571749,
+                                120
+                            ]
+                        ]
+                    }
+                }
+            ]
+        },
+        "flightId": "051c64ba-c61f-4159-bccf-37fc0af06897",
+        "uploadUrl": "cloud-dev.dyinnovations.com:9009/api/v1/resource/tiff",
+        "areaGeoTiffUrl": "cloud-dev.dyinnovations.com:9009/api/v1/resource/tiff/051c64ba-c61f-4159-bccf-37fc0af06897",
+        "planId": "dde2eb8b-cbe0-4844-be10-f2dd1238b452"
+    },
+    "timestamp": 1677567293834
+}
