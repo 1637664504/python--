@@ -57,7 +57,17 @@ python个人练习
 
 ### 6.struct 二进制bytes 转 int,float
 
- [1_struct_字节打包二进制.py](3_modules\6_二进制数据服务\1_struct_字节打包二进制.py) 
+ [1_pack_数据转bytes.py](3_modules\6_二进制数据服务\1_pack_数据转bytes.py) 
+
+ [2_unpack_bytes_转源数据.py](3_modules\6_二进制数据服务\2_unpack_bytes_转源数据.py) 
+
+ [4_float_bytes转换.py](3_modules\6_二进制数据服务\4_float_bytes转换.py) 
+
+ [5_bytes_转_hex.py](3_modules\6_二进制数据服务\5_bytes_转_hex.py) 
+
+ [6_pack_数据转bytes.py](3_modules\6_二进制数据服务\6_pack_数据转bytes.py) 
+
+ [7_unpack_bytes转原始数据.py](3_modules\6_二进制数据服务\7_unpack_bytes转原始数据.py) 
 
 ### 11.os
 
