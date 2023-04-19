@@ -61,9 +61,8 @@ class serial_CH0X0:
         self.data.tempertaure = data[3]
         print("温度%d",self.data.tempertaure)
 
-    def bytes_to_float(self,data):
-        value: float = struct.unpack('<f', struct.pack('4B', *data))[0]
-        return value
+    def bytes_to_float(self,data) -> float:
+        return float(struct.unpack('<f', struct.pack('4B', *data))[0])
 
     def parse_accelerometer(self,data):
         self.data.accelerometer_x = self.bytes_to_float(data[12:16])
