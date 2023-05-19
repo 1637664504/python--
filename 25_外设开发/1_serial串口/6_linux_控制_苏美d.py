@@ -31,7 +31,7 @@ class chassis_smd_data:
 
 class Chassis_smd:
     def __init__(self,name,bps):
-        self.serial = serial.Serial(name, bps)
+        self.serial = serial.Serial(name, bps, timeout=2)
         if self.serial.isOpen():
             print("Serial open ",self.serial.name)
         else:

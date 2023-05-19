@@ -221,5 +221,7 @@ windows显示串口设备 [1_windows_显示串口设备.py](25_外设开发\1_se
 
 windows打开、读取串口数据
 
- [2_windows_打开串口.py](25_外设开发\1_serial串口\2_windows_打开串口.py)
- [3_windows_读取串口.py](25_外设开发\1_serial串口\3_windows_读取串口.py) 
+imu 超核电子CH0X0实例1 [3_windows_超核电子CH0X0_imu数据读取.py](25_外设开发\1_serial串口\3_windows_超核电子CH0X0_imu数据读取.py) 
+
+imu 韩国R6082V实例2  [7_R6082V_imu模块.py](25_外设开发\1_serial串口\7_R6082V_imu模块.py) 
+

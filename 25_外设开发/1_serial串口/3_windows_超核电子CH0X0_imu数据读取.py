@@ -32,7 +32,7 @@ class CH0X0_data:
 
 class serial_CH0X0:
     def __init__(self,name,bps):
-        self.serial = serial.Serial(name, bps)
+        self.serial = serial.Serial(name, bps, timeout=2)
         if self.serial.isOpen():
             print("Serial open ",self.serial.name)
         else:
