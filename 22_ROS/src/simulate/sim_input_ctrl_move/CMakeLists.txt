@@ -1,0 +1,23 @@
+cmake_minimum_required(VERSION 3.0.2)
+project(sim_input_ctrl_move)
+
+find_package(catkin REQUIRED COMPONENTS
+  geometry_msgs
+  rospy
+  std_msgs
+)
+
+# python build
+catkin_python_setup()
+
+catkin_package(
+#  INCLUDE_DIRS include
+#  LIBRARIES sim_input_ctrl_move
+#  CATKIN_DEPENDS geometry_msgs rospy std_msgs
+#  DEPENDS system_lib
+)
+
+include_directories(
+# include
+  ${catkin_INCLUDE_DIRS}
+)
