@@ -4,6 +4,7 @@
 import time
 import serial
 import struct
+import threading
 from enum import Enum,IntEnum
 from dataclasses import dataclass
 from crc import Calculator,Crc16
@@ -69,6 +70,11 @@ class Chassis_smd:
         var.hall_R = struct.unpack("H",data[50:52])[0]
         var.UL = data[52]
         var.UR = data[53]
+        print("rtk_ins数据: pitch %f %f %f,速度%f %f,坐标%d %d %d"%(
+            var.pitch,var.roll,var.yaw,
+              var.w,var.v,
+              var.x,var.y,var.z))
+
 
     def handler_msg(self,data):
         if data[0] != self.bflags.head0 and data[1] != self.bflags.head1:
@@ -176,11 +182,7 @@ if __name__ == "__main__":
     serial_name = 'COM4'
     bps = 115200
     ser = Chassis_smd(serial_name,bps)
-    
-    # ssid="ruichizhihui-5G"
-    # password = "zhihui1130"
-    # ser.connect_wifi(ssid,password)
-    # ser.set_frequency(2)
+
     # while True:
     #     data = ""
     #     if ser.serial.in_waiting:

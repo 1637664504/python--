@@ -4,7 +4,12 @@
 
 import serial
 import struct
+from dataclasses import dataclass
 from crc import Calculator,Crc16
+
+@dataclass
+class CH0X0_Constan:
+    MsgLen: int = 82
 
 class CH0X0_data:
     tag: bytes = 0x91       # 包标签
@@ -111,19 +116,32 @@ class serial_CH0X0:
                 self.parse_euler(data)
                 self.parse_quaternion(data)
 
+    def check_imu_head(self,msg):
+        if msg[0] == self.byte_flag['frame_header'] and msg[1] == self.byte_flag['frame_type']:
+            return True
+        
+        return False
+
 # 更简洁的写法
 if __name__ == "__main__":
-    serial_name = 'COM11'
+    serial_name = 'COM18'
     bps = 115200
     ser = serial_CH0X0(serial_name,bps)
-    # ser.set_frequency(2)
+    ser.set_frequency(2)
+    read_len: int = 0
     while True:
         data = ""
         if ser.serial.in_waiting:
-            # serial.in_waiting 需要读取两次，+18只需读取一次，原因未知
-            data = ser.serial.read(ser.serial.in_waiting+18)
+            data = ser.serial.read(ser.serial.in_waiting)
             print("data len",len(data))
-            ser.parse_msg(data)
+            read_len = len(data)
+            if ser.check_imu_head(data):
+                data2 = ser.serial.read(82-read_len)
+                data += data2
+                ser.parse_msg(data)
+            else:
+                read_len = 0
+                print("not imu head. Drop !!!")
 
 '''
 
