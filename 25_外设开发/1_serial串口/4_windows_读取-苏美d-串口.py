@@ -177,21 +177,26 @@ class Chassis_smd:
             time.sleep(3)
             self.move_up(0.0)
 
+    def read_info(self):
+        while True:
+            data = ""
+            if ser.serial.in_waiting:
+                data = ser.serial.read(ser.serial.in_waiting)
+                print("data len",len(data))
+                print(data)
+                ser.handler_msg(data)
+                # ser.parse_msg(data)
+
 # 更简洁的写法
 if __name__ == "__main__":
     serial_name = 'COM4'
     bps = 115200
     ser = Chassis_smd(serial_name,bps)
 
-    # while True:
-    #     data = ""
-    #     if ser.serial.in_waiting:
-    #         data = ser.serial.read(ser.serial.in_waiting)
-    #         print("data len",len(data))
-    #         print(data)
-    #         ser.handler_msg(data)
-    #         # ser.parse_msg(data)
-    ser.get_cmd()
+    t2 = threading.Thread(target=ser.read_info)
+    t1 = threading.Thread(target=ser.get_cmd)
+    t1.start()
+    t2.start()
 
 '''
 
