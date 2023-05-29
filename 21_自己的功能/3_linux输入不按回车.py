@@ -1,6 +1,10 @@
+#!/usr/bin/env python3
+#coding=utf-8
+
 import sys
 import tty
 import termios
+import select
 
 class Noblock_terminal:
     def __init__(self):
@@ -16,6 +20,21 @@ class Noblock_terminal:
         ch = sys.stdin.read(1)
         # sys.stdout.write(ch)
         return ch
+    
+    def select_cmd(self):
+        read_list = [sys.stdin]
+        cmd = '0'
+        read_ret,write_ret,err_ret = select.select(read_list,[],[],0.5)
+        if read_ret:
+            for fd in read_ret:
+                if fd == sys.stdin:
+                    cmd = sys.stdin.read(1)
+                else:
+                    print("unknow fd")
+        else:
+            print("read timeout")
+
+        return cmd
 
     def stop_no_block(self):
         fd = sys.stdin.fileno()
@@ -24,10 +43,12 @@ class Noblock_terminal:
         
 
 if __name__ == "__main__":
-    sync_read = Noblock_terminal()
+    nterm = Noblock_terminal()
     cmd = '0'
+    read_list = [sys.stdin]
     while True:
-        cmd = sync_read.get_char()
+        # cmd = nterm.get_char()
+        cmd = nterm.select_cmd()
         if cmd == 'w':
             print("前进")
         elif cmd == 's':
@@ -44,5 +65,6 @@ if __name__ == "__main__":
             print('退出')
             break
 
+        # 回到行首
         sys.stdout.write("\033[80D")
-    sync_read.stop_no_block()
+    nterm.stop_no_block()
